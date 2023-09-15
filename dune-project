@@ -31,12 +31,6 @@ often found in data analysis.
 
 Features:
 - build complex and composable workflows declaratively
-- simple and lightweight wrapping of new components
-- resume-on-failure: if something fails, fix it and the workflow will
-  restart from where it stopped
-- parallel workflow execution
-- development-friendly: when a script is modified, bistro
-  automatically finds out what needs to be recomputed
 - automatic naming of generated files
 - static typing: detect file format errors at compile time
 ")
