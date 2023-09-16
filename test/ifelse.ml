@@ -6,7 +6,7 @@ let f () = Workflow.(ifelse (b ()) (data "even") (data "odd"))
 
 module Top = Bistro_utils.Toplevel_eval.Make(struct
     let np = 1
-    let mem = 4 * 1024
+    let mem = 4 * 2048
   end)()
 
 let () =
