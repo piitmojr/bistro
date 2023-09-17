@@ -5,7 +5,7 @@
 open Bistro_bioinfo
 open Bistro_utils
 
-let treatment_id = "SRR217304"
+let treatment_id = "SRR287304"
 let control_id = "SRR217324"
 
 let genome = Ucsc_gb.genome_sequence `sacCer2
