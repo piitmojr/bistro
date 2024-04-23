@@ -13,7 +13,7 @@ license: "CeCILL-B"
 homepage: "https://github.com/pveber/bistro/"
 bug-reports: "https://github.com/pveber/bistro/issues"
 depends: [
-  "dune" {>= "1.11"}
+  "dune" {>= "1.21"}
   "biocaml"
   "biotk"
   "tyxml"
